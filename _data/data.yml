@@ -1,15 +1,13 @@
 ---
 sidebar:
-  position: right
-  about: true
+  position: left
   education: true
   name: Xosé Carlos Fernández Amado
   tagline: Ingeniero de Software
   avatar: profile.jpg
   email: jc.fernandez.amado@gmail.com
   phone: 687 82 10 79
-  timezone: Europe/Madrid
-  citizenship: Spanish
+  citizenship: Barcelona / España
   website: null
   github: null
   telegram: null
