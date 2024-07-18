@@ -1,265 +1,147 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
-
+---
 sidebar:
-    position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
-
-    # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-
-    # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
-
-    languages:
-      title: Languages
-      info:
-        - idiom: English
-          level: Native
-
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
-          level: Professional
-
-    interests:
-      title: Interests
-      info:
-        - item: Climbing
-          link:
-
-        - item: Snowboarding
-          link:
-
-        - item: Cooking
-          link:
-
+  position: right
+  about: true
+  education: true
+  name: Xosé Carlos Fernández Amado
+  tagline: Ingeniero de Software
+  avatar: profile.jpg
+  email: jc.fernandez.amado@gmail.com
+  phone: 687 82 10 79
+  timezone: Europe/Madrid
+  citizenship: Spanish
+  website: null
+  github: null
+  telegram: null
+  gitlab: null
+  bitbucket: null
+  twitter: null
+  stack-overflow: null
+  codewars: null
+  goodreads: null
+  pdf: null
+  languages:
+    title: Idiomas
+    info:
+      - idiom: Español
+        level: Nativo
+      - idiom: Inglés
+        level: Fluido
+      - idiom: Catalán
+        level: Fluido
+      - idiom: Gallego
+        level: Nativo
+  interests:
+    title: Intereses
+    info:
+      - item: Programación
+      - item: Aprendizaje de nuevas tecnologías
 career-profile:
-    title: Career Profile
-    summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+  title: Perfil Profesional
+  summary: >
+    Ingeniero de software con más de 10 años de experiencia en el
+    desarrollo de aplicaciones web, destacándome en la implementación de
+    soluciones tanto en frontend como en backend. Mi carrera abarca diversas
+    áreas del desarrollo web permitiéndome ser un perfil más generalista que
+    especialista, con una notable capacidad de adaptación a nuevos entornos y
+    tecnologías. Me apasiona aprender cosas nuevas y disfrutar de los desafíos
+    que conlleva la programación.
 education:
-    title: Education
-    info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-
+  title: Educación
+  info:
+    - degree: Ingeniería Técnica en Informática de Sistemas
+      university: Universidad de Sevilla
+      time: 2004
+      details: >
+        Desarrollé habilidades en programación y sistemas informáticos, con un
+        enfoque en la solución de problemas técnicos y la implementación de
+        aplicaciones prácticas.
 experiences:
-    title: Experiences
-    info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+  title: Experiencia Profesional
+  info:
+    - role: Software Engineer
+      time: Marzo 2019 - Presente
+      company: Adevinta Spain (antes Schibsted)
+      details: >
+        - Desarrollo de servicios backend basados en Spring Boot con Java y
+        Kotlin.
 
+        - Implementación de una arquitectura de sistema distribuido asíncrono utilizando mensajería Kafka.
+
+        - Programación reactiva con Spring Boot y Reactor.
+
+        - Desarrollo frontend basado en la plataforma de Adevinta Spain.
+
+        - Integración multi realm entre dos portales de la compañía y el proveedor interno de identidad siguiendo el estándar OAUTH2.
+    - role: Frontend Engineer
+      time: Febrero 2016 - Marzo 2019
+      company: Schibsted Spain
+      details: >
+        - Participación en diversos proyectos frontend utilizando React y las
+        versiones más recientes de JavaScript.
+
+        - Desarrollo de backoffice para la gestión de productos de advertising con Redux y programación reactiva con RxJS.
+
+        - Desacople del frontend del monolito de coches.net usando React y arquitectura basada en DDD y arquitectura hexagonal.
+    - role: Frontend Engineer
+      time: Septiembre 2011 - Marzo 2019
+      company: Telefonica I+D (a través de Amaris)
+      details: >
+        - Proyecto Giffgaff: Desarrollo del frontend utilizando PHP e
+        integración de servicios backend utilizando REST y JSON.
+
+        - Herramienta de gestión de perfil de usuario: Desarrollo del frontend con JavaScript y Angular, desarrollo de una versión Android utilizando Ionic.
+    - role: Front End Developer
+      time: 2014 - 2015
+      company: Groupalia (a través de Amaris)
+      details: |
+        - Desarrollo frontend tipo SPA con JavaScript y Angular.
+    - role: PHP/ZF Developer
+      time: Agosto 2010 - Septiembre 2011
+      company: LetsBonus
+      details: >
+        - Evolución y mejora del portal utilizando PHP y Zend Framework.
+
+        - Desarrollo de una API REST de pago e implementación de servicios web y optimización de bases de datos MySQL.
+    - role: PHP/ZF Developer
+      time: 2009 - 2010
+      company: Aedgency
+      details: >
+        - Desarrollo backend utilizando PHP y Zend Framework.
+
+        - Integración de servicios XML y desarrollo de herramientas de backoffice.
+    - role: PHP Developer
+      time: 2007 - 2009
+      company: Emagister.com
+      details: |
+        - Desarrollo y mantenimiento de aplicaciones web utilizando PHP.
+        - Optimización de consultas MySQL y desarrollo de funcionalidades SEO.
 certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+  title: Certificaciones y Cursos
+  list:
+    - name: Kotlin for Java Developers
+      organization: Jetbrains (Coursera)
+    - name: JavaScript Road Trip Part 3
+      organization: Code School
+    - name: JavaScript Best Practices
+      organization: Code School
+    - name: Shaping Up with AngularJS
+      organization: Code School
 
 skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
-
+  title: Habilidades y Competencias
+  toolset:
+    - name: Java, Kotlin y JavaScript
+      level: 98%
+    - name: Python y PHP
+      level: 85%
+    - name: Arquitectura y Diseño (DDD, programación funcional)
+      level: 95%
+    - name: Microservicios
+      level: 90%
+    - name: Metodologías Ágiles (SCRUM, XP)
+      level: 90%
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  Designed with <i class="fas fa-heart"></i> by <a
+  href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying
+  Riley</a>
