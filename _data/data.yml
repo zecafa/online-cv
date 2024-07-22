@@ -3,13 +3,13 @@ sidebar:
   position: left
   education: true
   name: Xosé Carlos Fernández Amado
-  tagline: Ingeniero de Software
+  tagline: Software Engineer
   avatar: profile.jpg
   email: jc.fernandez.amado@gmail.com
   phone: 687 82 10 79
-  citizenship: Barcelona / España
+  citizenship: Barcelona
   website: null
-  github: null
+  github: https://github.com/zecafa
   telegram: null
   gitlab: null
   bitbucket: null
@@ -32,18 +32,19 @@ sidebar:
   interests:
     title: Intereses
     info:
-      - item: Programación
-      - item: Aprendizaje de nuevas tecnologías
+      - item: Toco el clarinete y otros instrumentos de viento
+      - item: Escalador principiante
+      - item: Últimamente disfruto leyendo sobre filosofía y neurociencia
+      - item: Juegos de mesa
+
 career-profile:
   title: Perfil Profesional
   summary: >
-    Ingeniero de software con más de 10 años de experiencia en el
-    desarrollo de aplicaciones web, destacándome en la implementación de
-    soluciones tanto en frontend como en backend. Mi carrera abarca diversas
+    Software engineer con más de 20 años de experiencia profesional. Mi carrera abarca diversas
     áreas del desarrollo web permitiéndome ser un perfil más generalista que
     especialista, con una notable capacidad de adaptación a nuevos entornos y
     tecnologías. Me apasiona aprender cosas nuevas y disfrutar de los desafíos
-    que conlleva la programación.
+    que conlleva mi profesión.
 education:
   title: Educación
   info:
@@ -61,24 +62,21 @@ experiences:
       time: Marzo 2019 - Presente
       company: Adevinta Spain (antes Schibsted)
       details: >
-        - Desarrollo de servicios backend basados en Spring Boot con Java y
-        Kotlin.
+        - Desarrollo de microservicios basados en Spring Boot con Java y
+        Kotlin siguiendo DDD y arquitectura hexagonal.
 
-        - Implementación de una arquitectura de sistema distribuido asíncrono utilizando mensajería Kafka.
+        - Implementación de una arquitectura de sistema distribuido asíncrono y reactivo, utilizando bus de mensajería Kafka.
 
-        - Programación reactiva con Spring Boot y Reactor.
+        - Desarrollo frontend react en la plataforma de Adevinta Spain.
 
-        - Desarrollo frontend basado en la plataforma de Adevinta Spain.
-
-        - Integración multi realm entre dos portales de la compañía y el proveedor interno de identidad siguiendo el estándar OAUTH2.
+        - Servicio de integración multi realm con proveedor de identidad OAUTH2.
     - role: Frontend Engineer
       time: Febrero 2016 - Marzo 2019
       company: Schibsted Spain
       details: >
-        - Participación en diversos proyectos frontend utilizando React y las
-        versiones más recientes de JavaScript.
+        - Participación en diversos proyectos frontend basados en react.
 
-        - Desarrollo de backoffice para la gestión de productos de advertising con Redux y programación reactiva con RxJS.
+        - Desarrollo de backoffice para la gestión de productos de advertising con Redux y programación reactiva RxJS.
 
         - Desacople del frontend del monolito de coches.net usando React y arquitectura basada en DDD y arquitectura hexagonal.
     - role: Frontend Engineer
@@ -101,14 +99,14 @@ experiences:
         - Evolución y mejora del portal utilizando PHP y Zend Framework.
 
         - Desarrollo de una API REST de pago e implementación de servicios web y optimización de bases de datos MySQL.
-    - role: PHP/ZF Developer
+    - role: Backend Developer
       time: 2009 - 2010
       company: Aedgency
       details: >
         - Desarrollo backend utilizando PHP y Zend Framework.
 
         - Integración de servicios XML y desarrollo de herramientas de backoffice.
-    - role: PHP Developer
+    - role: Web Developer
       time: 2007 - 2009
       company: Emagister.com
       details: |
