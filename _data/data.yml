@@ -19,101 +19,94 @@ sidebar:
   goodreads: null
   pdf: null
   languages:
-    title: Idiomas
+    title: Languages
     info:
-      - idiom: Español
-        level: Nativo
-      - idiom: Inglés
-        level: Fluido
-      - idiom: Catalán
-        level: Fluido
-      - idiom: Gallego
-        level: Nativo
+      - idiom: Spanish
+        level: Native
+      - idiom: English
+        level: Fluent
+      - idiom: Catalan
+        level: Fluent
+      - idiom: Galician
+        level: Native
   interests:
-    title: Intereses
+    title: Interests
     info:
-      - item: Toco el clarinete y otros instrumentos de viento
-      - item: Escalador principiante
-      - item: Últimamente disfruto leyendo sobre filosofía y neurociencia
-      - item: Juegos de mesa
+      - item: Generative AI
+      - item: Wind Instruments
+      - item: Climbing
+      - item: Philosophy
+      - item: Board Games
 
 career-profile:
-  title: Perfil Profesional
+  title: Professional Profile
   summary: >
-    Software engineer con más de 20 años de experiencia profesional. Mi carrera abarca diversas
-    áreas del desarrollo web permitiéndome ser un perfil más generalista que
-    especialista, con una notable capacidad de adaptación a nuevos entornos y
-    tecnologías. Me apasiona aprender cosas nuevas y disfrutar de los desafíos
-    que conlleva mi profesión.
+    Software engineer with over 20 years of professional experience. My career spans various areas of web development, allowing me to be a more generalist than a specialist, with a remarkable ability to adapt to new environments and technologies. I am passionate about learning new things and enjoying the challenges my profession brings.
 education:
-  title: Educación
+  title: Education
   info:
-    - degree: Ingeniería Técnica en Informática de Sistemas
-      university: Universidad de Sevilla
+    - degree: Technical Engineering in Computer Systems
+      university: University of Seville
       time: 2004
       details: >
-        Desarrollé habilidades en programación y sistemas informáticos, con un
-        enfoque en la solución de problemas técnicos y la implementación de
-        aplicaciones prácticas.
+        Developed skills in programming and computer systems, with a focus on solving technical problems and implementing practical applications.
 experiences:
-  title: Experiencia Profesional
+  title: Professional Experience
   info:
     - role: Software Engineer
-      time: Marzo 2019 - Presente
-      company: Adevinta Spain (antes Schibsted)
+      time: March 2019 - Present
+      company: Adevinta Spain (formerly Schibsted)
       details: >
-        - Desarrollo de microservicios basados en Spring Boot con Java y
-        Kotlin siguiendo DDD y arquitectura hexagonal.
+        - Development of microservices based on Spring Boot with Java and Kotlin following DDD and hexagonal architecture.
 
-        - Implementación de una arquitectura de sistema distribuido asíncrono y reactivo, utilizando bus de mensajería Kafka.
+        - Implementation of an asynchronous and reactive distributed system architecture using Kafka messaging bus.
 
-        - Desarrollo frontend react en la plataforma de Adevinta Spain.
+        - Frontend development in React on the Adevinta Spain platform.
 
-        - Servicio de integración multi realm con proveedor de identidad OAUTH2.
+        - Multi-realm integration service with OAUTH2 identity provider.
     - role: Frontend Engineer
-      time: Febrero 2016 - Marzo 2019
+      time: February 2016 - March 2019
       company: Schibsted Spain
       details: >
-        - Participación en diversos proyectos frontend basados en react.
+        - Participation in various frontend projects based on React.
 
-        - Desarrollo de backoffice para la gestión de productos de advertising con Redux y programación reactiva RxJS.
+        - Development of back-office for managing advertising products with Redux and reactive programming RxJS.
 
-        - Desacople del frontend del monolito de coches.net usando React y arquitectura basada en DDD y arquitectura hexagonal.
+        - Decoupling of the frontend from the coches.net monolith using React and architecture based on DDD and hexagonal architecture.
     - role: Frontend Engineer
-      time: Septiembre 2011 - Marzo 2019
-      company: Telefonica I+D (a través de Amaris)
+      time: September 2011 - March 2019
+      company: Telefonica I+D (through Amaris)
       details: >
-        - Proyecto Giffgaff: Desarrollo del frontend utilizando PHP e
-        integración de servicios backend utilizando REST y JSON.
+        - Giffgaff project: Frontend development using PHP and backend services integration using REST and JSON.
 
-        - Herramienta de gestión de perfil de usuario: Desarrollo del frontend con JavaScript y Angular, desarrollo de una versión Android utilizando Ionic.
+        - User profile management tool: Frontend development with JavaScript and Angular, development of an Android version using Ionic.
     - role: Front End Developer
       time: 2014 - 2015
-      company: Groupalia (a través de Amaris)
+      company: Groupalia (through Amaris)
       details: |
-        - Desarrollo frontend tipo SPA con JavaScript y Angular.
+        - SPA frontend development with JavaScript and Angular.
     - role: PHP/ZF Developer
-      time: Agosto 2010 - Septiembre 2011
+      time: August 2010 - September 2011
       company: LetsBonus
       details: >
-        - Evolución y mejora del portal utilizando PHP y Zend Framework.
+        - Evolution and improvement of the portal using PHP and Zend Framework.
 
-        - Desarrollo de una API REST de pago e implementación de servicios web y optimización de bases de datos MySQL.
+        - Development of a REST payment API and implementation of web services and optimization of MySQL databases.
     - role: Backend Developer
       time: 2009 - 2010
       company: Aedgency
       details: >
-        - Desarrollo backend utilizando PHP y Zend Framework.
+        - Backend development using PHP and Zend Framework.
 
-        - Integración de servicios XML y desarrollo de herramientas de backoffice.
+        - Integration of XML services and development of back-office tools.
     - role: Web Developer
       time: 2007 - 2009
       company: Emagister.com
       details: |
-        - Desarrollo y mantenimiento de aplicaciones web utilizando PHP.
-        - Optimización de consultas MySQL y desarrollo de funcionalidades SEO.
+        - Development and maintenance of web applications using PHP.
+        - Optimization of MySQL queries and development of SEO functionalities.
 certifications:
-  title: Certificaciones y Cursos
+  title: Certifications and Courses
   list:
     - name: Kotlin for Java Developers
       organization: Jetbrains (Coursera)
@@ -125,19 +118,35 @@ certifications:
       organization: Code School
 
 skills:
-  title: Habilidades y Competencias
+  title: Skills and Competencies
   toolset:
-    - name: Java, Kotlin y JavaScript
-      level: 98%
-    - name: Python y PHP
+    - name: Java
+      level: 80%
+    - name: Kotlin
+      level: 80%
+    - name: JavaScript
       level: 85%
-    - name: Arquitectura y Diseño (DDD, programación funcional)
+    - name: Python
+      level: 70%
+    - name: DDD
+      level: 80%
+    - name: Ports & Adapters (Hexagonal)
+      level: 90%
+    - name: Microservices
+      level: 90%
+    - name: Agile Methodologies (SCRUM, XP)
       level: 95%
-    - name: Microservicios
-      level: 90%
-    - name: Metodologías Ágiles (SCRUM, XP)
-      level: 90%
+    - name: Functional programming
+      level: 80%
+    - name: Reactive programming
+      level: 80%
+    - name: AWS
+      level: 70%
+    - name: K8S
+      level: 70%
+    - name: Apache Kafka
+      level: 75%
+    - name: Spring boot
+      level: 70%
 footer: >
-  Designed with <i class="fas fa-heart"></i> by <a
-  href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying
-  Riley</a>
+  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

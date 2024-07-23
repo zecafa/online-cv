@@ -1,0 +1,162 @@
+---
+sidebar:
+  position: left
+  education: true
+  name: Xosé Carlos Fernández Amado
+  tagline: Software Engineer
+  avatar: profile.jpg
+  email: jc.fernandez.amado@gmail.com
+  phone: 687 82 10 79
+  citizenship: Barcelona
+  website: null
+  github: https://github.com/zecafa
+  telegram: null
+  gitlab: null
+  bitbucket: null
+  twitter: null
+  stack-overflow: null
+  codewars: null
+  goodreads: null
+  pdf: null
+  languages:
+    title: Idiomas
+    info:
+      - idiom: Español
+        level: Nativo
+      - idiom: Inglés
+        level: Fluido
+      - idiom: Catalán
+        level: Fluido
+      - idiom: Gallego
+        level: Nativo
+  interests:
+    title: Intereses
+    info:
+      - item: IA generativa
+      - item: Instrumentos de viento
+      - item: Escalada
+      - item: Filosofia
+      - item: Juegos de mesa
+
+career-profile:
+  title: Perfil Profesional
+  summary: >
+    Software engineer con más de 20 años de experiencia profesional. Mi carrera abarca diversas
+    áreas del desarrollo web permitiéndome ser un perfil más generalista que
+    especialista, con una notable capacidad de adaptación a nuevos entornos y
+    tecnologías. Me apasiona aprender cosas nuevas y disfrutar de los desafíos
+    que conlleva mi profesión.
+education:
+  title: Educación
+  info:
+    - degree: Ingeniería Técnica en Informática de Sistemas
+      university: Universidad de Sevilla
+      time: 2004
+      details: >
+        Desarrollé habilidades en programación y sistemas informáticos, con un
+        enfoque en la solución de problemas técnicos y la implementación de
+        aplicaciones prácticas.
+experiences:
+  title: Experiencia Profesional
+  info:
+    - role: Software Engineer
+      time: Marzo 2019 - Presente
+      company: Adevinta Spain (antes Schibsted)
+      details: >
+        - Desarrollo de microservicios basados en Spring Boot con Java y
+        Kotlin siguiendo DDD y arquitectura hexagonal.
+
+        - Implementación de una arquitectura de sistema distribuido asíncrono y reactivo, utilizando bus de mensajería Kafka.
+
+        - Desarrollo frontend react en la plataforma de Adevinta Spain.
+
+        - Servicio de integración multi realm con proveedor de identidad OAUTH2.
+    - role: Frontend Engineer
+      time: Febrero 2016 - Marzo 2019
+      company: Schibsted Spain
+      details: >
+        - Participación en diversos proyectos frontend basados en react.
+
+        - Desarrollo de backoffice para la gestión de productos de advertising con Redux y programación reactiva RxJS.
+
+        - Desacople del frontend del monolito de coches.net usando React y arquitectura basada en DDD y arquitectura hexagonal.
+    - role: Frontend Engineer
+      time: Septiembre 2011 - Marzo 2019
+      company: Telefonica I+D (a través de Amaris)
+      details: >
+        - Proyecto Giffgaff: Desarrollo del frontend utilizando PHP e
+        integración de servicios backend utilizando REST y JSON.
+
+        - Herramienta de gestión de perfil de usuario: Desarrollo del frontend con JavaScript y Angular, desarrollo de una versión Android utilizando Ionic.
+    - role: Front End Developer
+      time: 2014 - 2015
+      company: Groupalia (a través de Amaris)
+      details: |
+        - Desarrollo frontend tipo SPA con JavaScript y Angular.
+    - role: PHP/ZF Developer
+      time: Agosto 2010 - Septiembre 2011
+      company: LetsBonus
+      details: >
+        - Evolución y mejora del portal utilizando PHP y Zend Framework.
+
+        - Desarrollo de una API REST de pago e implementación de servicios web y optimización de bases de datos MySQL.
+    - role: Backend Developer
+      time: 2009 - 2010
+      company: Aedgency
+      details: >
+        - Desarrollo backend utilizando PHP y Zend Framework.
+
+        - Integración de servicios XML y desarrollo de herramientas de backoffice.
+    - role: Web Developer
+      time: 2007 - 2009
+      company: Emagister.com
+      details: |
+        - Desarrollo y mantenimiento de aplicaciones web utilizando PHP.
+        - Optimización de consultas MySQL y desarrollo de funcionalidades SEO.
+certifications:
+  title: Certificaciones y Cursos
+  list:
+    - name: Kotlin for Java Developers
+      organization: Jetbrains (Coursera)
+    - name: JavaScript Road Trip Part 3
+      organization: Code School
+    - name: JavaScript Best Practices
+      organization: Code School
+    - name: Shaping Up with AngularJS
+      organization: Code School
+
+skills:
+  title: Habilidades y Competencias
+  toolset:
+    - name: Java
+      level: 80%
+    - name: Kotlin
+      level: 80%
+    - name: JavaScript
+      level: 85%
+    - name: Python
+      level: 70%
+    - name: DDD
+      level: 80%
+    - name: Ports & Adapters (Hexagonal)
+      level: 90%
+    - name: Microservicios
+      level: 90%
+    - name: Metodologías Ágiles (SCRUM, XP)
+      level: 95%
+    - name: Functional programming
+      level: 80%
+    - name: Reactive programming
+      level: 80%
+    - name: AWS
+      level: 70%
+    - name: K8S
+      level: 70%
+    - name: Apache Kafka
+      level: 75%
+    - name: Spring boot
+      level: 70%
+footer: >
+  Designed with <i class="fas fa-heart"></i> by <a
+  href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying
+  Riley</a>
